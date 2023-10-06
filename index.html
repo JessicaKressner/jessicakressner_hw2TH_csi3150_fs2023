@@ -8,14 +8,22 @@
     <title>Portfolio Website</title>
     <!--Link to favicon-->
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <!--Link to external css file-->
+    <link rel="stylesheet" href="./portfolio.css" />
   </head>
   <body>
     <!--Header that contains website title, navigation bar of different pages, and my avatar-->
     <!--Website Title-->
     <header id="portfolioWebsite">
+      <!--My Avatar-->
+      <div id="logoContainer">
+        <img src="./images/Avatar.jpg" alt="avatar" height="100" width="100" />
+      </div>
+      <!--Website Title
       <div id="pageHeader">
         <span>Jessica Kressner's Portfolio Website</span>
-      </div>
+      </div> -->
       <!--Navigation Bar of Different Pages-->
       <div id="navContainer">
         <nav id="navbar">
@@ -27,47 +35,61 @@
           <a href="./html/my_fun_facts.html" class="navOption">My Fun Facts</a>
         </nav>
       </div>
-      <!--My Avatar-->
-      <div id="logoContainer">
-        <img src="./images/Avatar.jpg" alt="avatar" height="100" width="100" />
-      </div>
     </header>
     <hr />
-    <!--Quote that represents me-->
+    <!--Quote that represents me -->
     <div id="quoteContainer">
+      <h1>Jessica Kressner's Portofolio Website</h1>
       <p>
         "There are no secrets to success. It is the result of preparation, hard
         work, and learning from failure."
       </p>
     </div>
-    <!--Description of me-->
-    <div id="describeMeContainer">
-      <p>
-        My name is Jessica Kressner. I am from Macomb, Michigan. I am a student
-        at Oakland University. My major is IT with a specialization in
-        Cybersecurity. I enjoy learning about different areas of the tech
-        industry. My professional interests are in different areas of tech such
-        as data analysis and cybersecurity. To know more about me check out
-        <!--Link to my resume page-->
-        <a href="./html/my_resume.html" class="navOption">My Resume</a>
-        and
-        <!--Link to my fun facts page-->
-        <a href="./html/my_fun_facts.html" class="navOption">My Fun Facts</a>
-      </p>
-    </div>
+    <!--Hero section-->
+    <section class="hero">
+      <!--Description of Me-->
+      <div id="describeMeContainer">
+        <p>
+          My name is Jessica Kressner. I am from Macomb, Michigan. I am a
+          student at Oakland University. My major is IT with a specialization in
+          Cybersecurity. I enjoy learning about different areas of the tech
+          industry. My professional interests are in different areas of tech
+          such as data analysis and cybersecurity. To know more about me check
+          out
+          <!--Link to my resume page-->
+          <a href="./html/my_resume.html" class="navOption">My Resume</a>
+          and
+          <!--Link to my fun facts page-->
+          <a href="./html/my_fun_facts.html" class="navOption">My Fun Facts</a>
+          <br />
+          <!--Button that links to resume-->
+          <button class="button">
+            <a href="./html/my_resume.html"> Resume</a>
+          </button>
+        </p>
+      </div>
+      <!--Image that displays IT-->
+      <div class="image">
+        <img src="./images/IT.png" />
+      </div>
+    </section>
+    <!--Progress of Degree Bar-->
     <div id="progressDegree">
       <label>Progress of Credits for Degree</label>
       <br />
+      <!--Progress Bar-->
       <progress id="progressBar" value="100" max="128">78%</progress>
       <p>78% 100/128 credits</p>
     </div>
     <hr />
     <!--Footer which contains copyright of company and contact information-->
     <footer>
-      <p>
-        Jessica Kressner LLC &copy;
-        <a href="mailto:jessicakressner@oakland.edu">Email Info</a>
-      </p>
+      <div id="footer">
+        <p>
+          Jessica Kressner LLC &copy;
+          <a href="mailto:jessicakressner@oakland.edu">Email Info</a>
+        </p>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,0 +1,183 @@
+/* reset all browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* reset text decoration */
+a {
+  text-decoration: none;
+}
+
+/* style the header */
+#portfolioWebsite {
+  background-color: lightslategrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* style title of page */
+#pageHeader {
+  font-size: large;
+}
+
+/* style the navbar */
+#navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: lightslategrey;
+  color: bisque;
+}
+
+/* style the navbar links */
+#navContainer a {
+  color: bisque;
+  padding: 5px;
+}
+
+/* style the logo */
+#logoContainer {
+  display: flex;
+  padding: 5px;
+}
+
+/* style the quote */
+#quoteContainer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#describeMeContainer {
+  font-size: 20px;
+}
+/* style the description */
+#describeMeContainer a {
+  color: teal;
+  font-size: 20px;
+}
+
+/* style the items in the navbar */
+.navOption {
+  gap: 1em;
+  font-size: 18px;
+}
+
+/* responsive design of navbar */
+#navContainer a:hover {
+  background-color: darkgray;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  font-size: 26px;
+}
+
+/* style the links in the footer */
+#footer a {
+  color: teal;
+}
+
+/* style favorite book section of fun facts page */
+#favoriteBook {
+  background-color: darkgrey;
+  padding: 5px;
+}
+
+/* style description of favorite book section of fun facts page */
+#bookDetails {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookDescription {
+  padding: 15px;
+}
+
+/* style favorite book title */
+#bookTitle {
+  text-align: center;
+}
+
+/* style links in favorite book section */
+#favoriteBook a {
+  color: bisque;
+  padding: 5px;
+  margin: 20px;
+}
+
+/* title title of fun facts page */
+#pageName {
+  text-align: center;
+  color: lightslategrey;
+}
+
+/* title favorite song section of fun facts page */
+#favoriteSong {
+  padding: 5px;
+  text-align: center;
+}
+
+/* style links to favorite song */
+#favoriteSong a {
+  color: teal;
+}
+
+/* style favorite show section of fun facts page */
+#favoriteShow {
+  text-align: center;
+  background-color: lightslategrey;
+  padding: 5px;
+}
+
+/* style resume */
+#resume {
+  color: lightslategrey;
+}
+
+/* style objective section of resume */
+#Objective {
+  background-color: darkgrey;
+  padding: 5px;
+}
+
+/* style educational experiences section of resume */
+#educationalExperiences {
+  background-color: darkgrey;
+  padding: 5px;
+}
+
+/* style contact information of resume */
+#contactInformation {
+  text-align: center;
+}
+
+/* responsive design using css media queries */
+@media (max-wdith: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: lightslategrey;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: lightslategrey;
+    transition: 0.3s ease;
+  }
+}

@@ -12,10 +12,17 @@
       href="../images/favicon.ico"
       type="image/x-icon"
     />
+    <!--Link to external css file-->
+    <link rel="stylesheet" href="../portfolio.css" />
   </head>
   <body>
     <!--Header that contains website title and navigation bar of different pages-->
     <header id="portfolioWebsite">
+      <!--My Avatar-->
+      <div id="logoContainer">
+        <img src="../images/Avatar.jpg" alt="avatar" height="100" width="100" />
+      </div>
+      <!--Website Title-->
       <div id="pageHeader">
         <span>Jessica Kressner's Portfolio Website</span>
       </div>
@@ -39,36 +46,41 @@
     <hr />
     <!--Favorite Book section of my fun facts page-->
     <div id="favoriteBook">
-      <h4>My Favorite Book</h4>
-      <p>My Favorite book is Legend by Marie Lu</p>
-      <!--Image of my favorite book-->
-      <img
-        src="../images/Legend.jpg"
-        alt="Legend Book Cover"
-        height="150"
-        width="100"
-      />
-      <br />
+      <div id="bookTitle">
+        <h4>My Favorite Book</h4>
+        <p>My Favorite book is Legend by Marie Lu</p>
+      </div>
+      <div id="bookDetails">
+        <!--Image of my favorite book-->
+        <img
+          src="../images/Legend.jpg"
+          alt="Legend Book Cover"
+          height="150"
+          width="100"
+          class="bookDescription"
+        />
+        <br />
+        <!--Description of my favorite book-->
+        <p class="bookDescription">
+          Legend by Marie Lu is my favorite book because it is a distopian
+          fiction that tells a story of two people from different social classes
+          and ways of life and their worlds collide when they run into each
+          other. As they get to know each other they discover the secrets of the
+          government and how corrupt the society they live in is. There are many
+          plot twists that will keep your interest.
+        </p>
+      </div>
       <!--Link to buy my favorite book-->
       <a
         href="https://www.amazon.com/Legend-Marie-Lu/dp/014242207X/ref=asc_df_014242207X/?tag=hyprod-20&linkCode=df0&hvadid=312167335900&hvpos=&hvnetw=g&hvrand=1608350776989472927&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9016808&hvtargid=pla-404805890769&psc=1&tag=&ref=&adgrpid=60258871417&hvpone=&hvptwo=&hvadid=312167335900&hvpos=&hvnetw=g&hvrand=1608350776989472927&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9016808&hvtargid=pla-404805890769"
         >Buy Legend</a
       >
-      <!--Description of my favorite book-->
-      <p>
-        Legend by Marie Lu is my favorite book because it is a distopian fiction
-        that tells a story of two people from different social classes and ways
-        of life and their worlds collide when they run into each other. As they
-        get to know each other they discover the secrets of the government and
-        how corrupt the society they live in is. There are many plot twists that
-        will keep your interest.
-      </p>
     </div>
     <hr />
     <!--Favorite Song section of my fun facts page-->
     <div id="favoriteSong">
       <h4>My Favorite Song</h4>
-      <p>My favorite song is Everything About Yout by One Direction</p>
+      <p>My favorite song is Everything About You by One Direction</p>
       <!--Link to listen to my favorite song-->
       <a href="https://www.youtube.com/watch?v=7TvALyReIGE"
         >Listen to the song here</a
@@ -94,11 +106,13 @@
     </div>
     <hr />
     <footer>
-      <p>
-        <!--Footer which contains copyright of company and contact information-->
-        Jessica Kressner LLC &copy;
-        <a href="mailto:jessicakressner@oakland.edu">Email Info</a>
-      </p>
+      <div id="footer">
+        <p>
+          <!--Footer which contains copyright of company and contact information-->
+          Jessica Kressner LLC &copy;
+          <a href="mailto:jessicakressner@oakland.edu">Email Info</a>
+        </p>
+      </div>
     </footer>
   </body>
 </html>
